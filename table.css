@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Red Hat Display";
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(120, 120, 215, 0.076);
+}
+table,
+th,
+td {
+  border: 3px solid white;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 20px;
+}
+th {
+  background-color: rgb(120, 120, 215);
+  font-weight: 800;
+  font-size: 24px;
+}
+td {
+  background-color: rgba(120, 120, 215, 0.076);
+  color: rgb(120, 120, 215);
+}
+.school {
+  border-right: 3px solid white;
+  border-top: 3px solid rgb(120, 120, 215);
+  border-left: 3px solid rgb(120, 120, 215);
+}
+.courses {
+  border-right: 3px solid rgb(120, 120, 215);
+  border-top: 3px solid rgb(120, 120, 215);
+}
+th,
+td {
+  width: 230px;
+}
+.soe,
+.sod,
+.sop {
+  font-weight: 700;
+}
+table {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  overflow: hidden;
+}
